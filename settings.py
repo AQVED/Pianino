@@ -1,5 +1,8 @@
+from pygame import display
+
 WINDOW_WIDTH = 800
 WINDOW_HEIGHT = 400
+screen = display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 
 WHITE = (255,255,255)
 BLACK = (0,0,0)
